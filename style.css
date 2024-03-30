@@ -1,0 +1,71 @@
+main{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+
+body > p, body > a{
+  display:inline
+  padding 15px;
+  font-size: 30px;
+  color: chocolate;
+  font-weight: bold;
+  background-color: #2d2a1f;
+}
+.n1{
+  order: 1;
+}
+  
+body{
+    background-image: url("img/fon1.jpg");
+    font-size: 18px;
+    line-height: 1.5;
+    font-family: 'Courier New', Courier, monospace;
+    height: 1500px;
+  }
+  .card{
+    background-color: #fff;
+    width: 450px;
+    /*margin: 50px auto; */
+    padding: 35px;
+    border-radius: 15px;
+    border: 3px solid green; /* Параметры рамки */
+    box-shadow: 0 0 7px #666; /* Параметры тени */
+  } 
+  .photo{
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: 3px solid green; /* Параметры рамки */
+    box-shadow: 0 0 7px #666; /* Параметры тени */
+  } 
+  .title{
+    font-size: 25px;
+    text-align: center;
+    color: #2d2a1f;
+  } 
+  .subtitle{
+    font-size: 20px;
+  } 
+  .list{
+    padding: 0;
+    list-style-position: inside;
+  } 
+  .p a{
+    text-decoration: none;
+    color: #2d2a1f;
+  } 
+  .music{
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    height: 200px;
+    border-radius: 100px;
+    border: 3px solid green; /* Параметры рамки */
+    box-shadow: 0 0 7px #666; /* Параметры тени */
+  } 
+
+  /* ewew */
